@@ -1,0 +1,7 @@
+# Ignore all compiled binaries inside subfolders
+*/**
+
+# But keep source files and Makefile
+!*/**.c
+!*/**.h
+!Makefile
