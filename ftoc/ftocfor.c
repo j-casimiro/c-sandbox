@@ -1,4 +1,6 @@
 // the for statement 
+// the for loop is usually appropriate for loops in which the initialization
+// and increment are single statements and logically related.
 
 #include <stdio.h>
 
