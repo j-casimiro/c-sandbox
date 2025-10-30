@@ -7,9 +7,9 @@
 int main() {
     int c, t, b, nl;
 
-    t = 0;
-    b = 0;
-    nl = 0;
+    t = 0; // tabs
+    b = 0; // blanks
+    nl = 0; // new lines
     while ((c = getchar()) != EOF) {
         if (c == '\n') {
             ++nl;
