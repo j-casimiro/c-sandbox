@@ -3,10 +3,11 @@
 // count digits, whitespace, others
 int main() {
     int c, i, nwhite, nother;
+    // init array of 10 integers
     int ndigit[10];
 
+    // assign 0s to all variables and array
     nwhite = nother = 0;
-
     for (i = 0; i < 10; i++)
         ndigit[i] = 0;
 
@@ -17,11 +18,13 @@ int main() {
             ++nwhite;
         else
             ++nother;
-
+    
+    printf("\n");
     printf("digits =");
     for (i = 0; i < 10; ++i)
         printf(" %d", ndigit[i]);
     printf(", white space = %d, other = %d\n",
         nwhite, nother);
+
     return 0;
 }
